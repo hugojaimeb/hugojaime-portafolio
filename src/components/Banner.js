@@ -6,7 +6,12 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "I  Code"];
+  const toRotate = [
+    "Web Developer",
+    "Web Designer",
+    "Full Stack Developer",
+    "I ♥ Code.",
+  ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -50,16 +55,20 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">Welcome to my WebSite</span>
             <h1>
-              {`Hi! I'm Hugo`}
+              {`Hi! I'm Hugo `}
+              <br></br>
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I create amazing Web sites and web apps for people around the
+              world 🚀 Based in Colombia, I'm an Industrial Engieenier and a
+              technology fan, some day a friend of mine pushed me to start
+              coding and then I couldn't stop. 👨🏾‍💻
+              <br />
+              <br />
+              When i'm not coding, i'm playing Video games🎮 or Rugby🏉
             </p>
             <button onClick={() => console.log("connect")}>
               Let's Connect <ArrowRightCircle size={25} />
