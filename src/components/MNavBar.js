@@ -31,7 +31,7 @@ export const MnavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logohj} alt="LogoHj" />
+          <img src={logohj} alt="LogoHj" className="logonavbar" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -48,13 +48,13 @@ export const MnavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#skills"
+              href="#profile"
               className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                activeLink === "profile" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("skills")}
+              onClick={() => onUpdateActiveLink("profile")}
             >
-              Skills
+              Profile
             </Nav.Link>
             <Nav.Link
               href="#projects"
