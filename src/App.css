@@ -608,6 +608,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .profileh1 {
   text-align: center;
   color: #2acbfc;
+  margin-top: 25px;
 }
 
 .profilecol img {
