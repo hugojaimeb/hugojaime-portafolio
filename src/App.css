@@ -289,6 +289,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  padding-bottom: 40px;
 }
 .banner button svg {
   font-size: 25px;
@@ -638,10 +639,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-.profile img {
-  weight: 20%;
-  height: 300px;
-  content-align: left;
+.profileh1 {
+  text-align: center;
+  color: #2acbfc;
+}
+
+.profilecol img {
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
   display: flex;
-  background-size: relative;
+  padding-bottom: 50px;
+}
+
+.pprofile {
+  text-align: justify;
+  color: withe;
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+.profileh2 {
+  text-align: center;
+  color: #2acbfc;
 }

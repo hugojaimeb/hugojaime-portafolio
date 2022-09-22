@@ -10,7 +10,7 @@ export const Banner = () => {
     "Web Developer",
     "Web Designer",
     "Full Stack Developer",
-    "I ♥ Code.",
+    "I ♥ Coding.",
   ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
