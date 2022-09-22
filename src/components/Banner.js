@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import newHeaderImg from "../assets/img/new-header-img.png";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -75,7 +75,7 @@ export const Banner = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img" />
+            <img src={newHeaderImg} alt="Header Img" />
           </Col>
         </Row>
       </Container>
