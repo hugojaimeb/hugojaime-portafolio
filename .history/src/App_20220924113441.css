@@ -726,7 +726,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .colproject {
-  margin: auto;
+  align-content: center;
 }
 
 .h1footer {

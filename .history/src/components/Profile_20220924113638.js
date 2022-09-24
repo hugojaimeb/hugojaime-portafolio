@@ -29,10 +29,10 @@ export const Profile = () => {
             <br />
             <br />
             <p data-aos="fade-down" className="pprofile">
-              My name is Hugo Jaime. I'm an Industrial Engineer and Front-End
-              Developer. I worked on websites that were responsive, adaptable,
-              and creative. sites, apps, and corporate image for different
-              customers around the world.
+              My name is Hugo Jaime, I'm Industrial Engieenier and Front-end
+              Developer, I worked creating Responsive, Adaptive and creative web
+              sites, apps and Corporate image for different customers around the
+              world.
             </p>
             <h2 data-aos="fade-down" className="profileh2">
               My Weapons Are :
