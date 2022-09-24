@@ -90,9 +90,17 @@ export const MnavBar = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <button className="vvd">
-              <span>Let's Connect</span>
-            </button>
+            <a
+              href="#contact"
+              className={
+                activeLink === "contact" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("contact")}
+            >
+              <button>
+                <span>Let's Connect</span>
+              </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

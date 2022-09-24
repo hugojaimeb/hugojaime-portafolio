@@ -4,6 +4,27 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import newHeaderImg from "../assets/img/new-header-img.png";
 
 export const Banner = () => {
+  const [activeLink, setActiveLink] = useState("home");
+  const [, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+  };
+
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = [
@@ -70,9 +91,17 @@ export const Banner = () => {
               <br />
               When i'm not coding, i'm playing Video games🎮 or Rugby🏉
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's Connect <ArrowRightCircle size={25} />
-            </button>
+            <a
+              href="#contact"
+              className={
+                activeLink === "contact" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("contact")}
+            >
+              <button>
+                Let's Connect <ArrowRightCircle size={25} />
+              </button>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={newHeaderImg} alt="Header Img" />
