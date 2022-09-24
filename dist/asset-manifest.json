@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.311832c4.css",
+    "main.js": "/static/js/main.b965e6f5.js",
+    "static/js/787.45fb2362.chunk.js": "/static/js/787.45fb2362.chunk.js",
+    "static/media/banner-bg.png": "/static/media/banner-bg.ffe089fc06647eab5b14.png",
+    "static/media/projecto1.png": "/static/media/projecto1.50e9079cf6aef45acd04.png",
+    "static/media/projecto2.png": "/static/media/projecto2.a7d1f00819e3197ec2cf.png",
+    "static/media/new-header-img.png": "/static/media/new-header-img.7e11dfa5a8bcf7194b45.png",
+    "static/media/projecto3.png": "/static/media/projecto3.74be21cee2c08c8fa441.png",
+    "static/media/Perfil CV.jpeg": "/static/media/Perfil CV.9934a621ab3dab3f6703.jpeg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/react_original_wordmark_logo_icon_146375.png": "/static/media/react_original_wordmark_logo_icon_146375.598c274386446bb54ac6.png",
+    "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/index.html",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.311832c4.css.map": "/static/css/main.311832c4.css.map",
+    "main.b965e6f5.js.map": "/static/js/main.b965e6f5.js.map",
+    "787.45fb2362.chunk.js.map": "/static/js/787.45fb2362.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311832c4.css",
+    "static/js/main.b965e6f5.js"
+  ]
+}
