@@ -30,7 +30,7 @@ export const Profile = () => {
             <br />
             <p data-aos="fade-down" className="pprofile">
               My name is Hugo Jaime. I'm an Industrial Engineer and Front-End
-              Developer. I worked on website, sites and apps, that were
+              Developer. I worked on website, ssites and apps, that were
               responsive, adaptable, and creative and also corporate image for
               different customers around the world.
             </p>
