@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/prueba pc.jpg";
 
 export const Contact = () => {
   useEffect(() => {
