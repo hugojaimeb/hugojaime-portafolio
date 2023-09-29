@@ -81,8 +81,10 @@ export const Banner = () => {
             <span className="tagline">Welcome to my WebSite</span>
             <h1>
               {`Hi! I'm Hugo `}
-              <br></br>
-              <span className="wrap">{text}</span>
+              <div className="waveText">
+              <span className="wrap" id="bannerTextAnimate">{text}</span>
+
+              </div>
             </h1>
             <p>
               I create amazing Web sites and web apps for people around the
