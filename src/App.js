@@ -15,8 +15,8 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Hugo Jaime</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-        <meta name="description" content="Hugo Jaime Developer Profile" />
+        <link rel="canonical" href="https://hugojaime-portafolio.web.app/" />
+        <meta name="description" content="Hugo Jaime Developer" />
       </Helmet>
       <MnavBar />
       <Banner />
